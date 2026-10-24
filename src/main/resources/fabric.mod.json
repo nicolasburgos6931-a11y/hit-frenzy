@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "hitfrenzy",
+	"version": "${version}",
+	"name": "Hit Frenzy",
+	"description": "Floating damage numbers, a frantic rainbow combo counter and end-of-combo ratings like AMAZING!!",
+	"authors": ["ElBatzyMC"],
+	"contributors": ["Claude (Anthropic)"],
+	"license": "MIT",
+	"icon": "assets/hitfrenzy/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["com.hitfrenzy.HitFrenzyMod"]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
